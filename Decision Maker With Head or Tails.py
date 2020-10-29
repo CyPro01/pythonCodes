@@ -5,7 +5,7 @@ import sys
 
 def Coin():
     print("Flipping Coin")
-    string ="\|/\|/\|/\|/\|/\|/\|/\|/\|/"
+    string ="\|/\|/\|/\|/\|/\|/\|/\|/\|/" #To give the feel of filp ;P
 
     for i in string:
         time.sleep(.1)
@@ -15,7 +15,7 @@ def Coin():
     b = random.choice(a)
     return b
 
-input("First Decide! Then press Enter")
+input("First Decide What You want! Then press Enter to Flip")
 
 print(Coin())
 
